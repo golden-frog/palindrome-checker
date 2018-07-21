@@ -15,7 +15,7 @@ We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and 
 function palindrome(str) {
 
   // Replace non-alphanumeric characters
-  str = str.replace(/[^A-Za-z0-9]/gi, '');
+  str = str.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
 
 }
 
